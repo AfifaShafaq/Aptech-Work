@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
 
-:root{
+:root {
     --primary-color: #f7444e;
-  
+
 }
 
 /* @media only screen and (max-width:1070px) {
@@ -67,7 +67,7 @@ nav {
     background-color: white;
     align-items: center;
     padding: 20px;
-   
+
 
 }
 
@@ -389,7 +389,7 @@ span {
 }
 
 .s4 {
-   width: auto;
+    width: auto;
 }
 
 
@@ -632,7 +632,7 @@ span {
 
 }
 
-/* Product Pages CSS */
+/* Product Page CSS */
 
 .p-grid {
     padding: 50px;
@@ -701,7 +701,7 @@ span {
 
 .pb:hover {
     background-color: transparent;
-    color: var( --primary-color);
+    color: var(--primary-color);
     border: 2px solid var(--primary-color);
 }
 
@@ -756,11 +756,11 @@ span {
     margin-top: 30px;
     display: flex;
     flex-direction: column;
-    gap:20px;
+    gap: 20px;
     font-weight: 300;
 }
 
-.c2 h2{
+.c2 h2 {
     font-size: 30px;
     font-family: 'Playfair Display', serif;
 
@@ -772,13 +772,15 @@ span {
     margin-right: 5px;
     font-size: 25px;
 }
-.c2 p{
-   
+
+.c2 p {
+
     line-height: 1.5;
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     font-weight: 400;
 }
+
 .cpr {
     text-align: center;
     color: white;
@@ -787,14 +789,16 @@ span {
     margin-top: 60px;
     line-height: 1.5;
 }
-.cpr:before{
+
+.cpr:before {
     content: " ";
     display: block;
     width: 700px;
     height: 1px;
     margin: 10px auto 20px;
-    background-color:  #746f6f;
+    background-color: #746f6f;
 }
-.bs2{
+
+.bs2 {
     margin-bottom: 70px;
 }
